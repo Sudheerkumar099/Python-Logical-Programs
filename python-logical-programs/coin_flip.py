@@ -9,7 +9,7 @@ for i in range(0,n,1):
     else:
         tails+=1
         
-heads=heads/n*100
-tails=tails/n*100
+heads=(heads/n)*100
+tails=(tails/n)*100
 print(f"Percentage of Heads:  {heads} %")
 print(f"Percentage of Tails:  {tails} %")
