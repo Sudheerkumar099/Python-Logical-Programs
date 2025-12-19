@@ -11,3 +11,4 @@ for i in range(int(n)):
 for status in lst:
     print(status)
 print(f"Remaining balance: {balance}")
+print ("Thank You")
