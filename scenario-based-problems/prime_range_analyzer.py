@@ -1,5 +1,5 @@
-start = int(input("Enter the start of the range: "))
-end = int(input("Enter the end of the range: "))
+start = int(input("Enter the starting of the range: "))
+end = int(input("Enter the ending of the range: "))
 
 def is_prime(n):
     if n<=1:
