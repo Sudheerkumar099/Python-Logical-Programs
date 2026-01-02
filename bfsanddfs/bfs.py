@@ -5,7 +5,8 @@ graph = {
     "B":["C","D"],
     "C":["D"],
     "D":["E"],
-    "E":[]
+    "E":["F"],
+    "F":[]
 }
 def bfs(graph,start):
     visited = set()
