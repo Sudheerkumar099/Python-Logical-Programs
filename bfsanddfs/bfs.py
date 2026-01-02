@@ -16,7 +16,9 @@ def bfs(graph,start):
         if node not in visited:
             print(node, end=" ")
             visited.add(node)
-            queue.extend(graph[node])
+            for i in graph[node]:
+                if i not in visited:
+                    queue.append(i)
 
 bfs(graph,"A")
     
