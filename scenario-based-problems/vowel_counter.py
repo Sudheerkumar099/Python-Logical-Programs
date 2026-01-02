@@ -16,13 +16,13 @@ for char in sentence :
         o = o + 1
     elif char == 'u' or char == 'U':
         u = u + 1
-        
+       
 if a > k:
     print("A",a)
 if e > k :
     print("E",e)
 if i > k :
-    print("I" , i)
+    print("I" ,i)
 if o > k :
     print("O",o)
 if u > k:

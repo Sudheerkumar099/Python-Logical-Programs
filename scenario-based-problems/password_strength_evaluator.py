@@ -12,3 +12,4 @@ if len(password) >= 8 and digits >= 1 and uppercase >= 1:
     print("STRONG")
 else:
     print("WEAK")
+    
